@@ -1,6 +1,0 @@
-server:
-  port: 8086
-minecraft:
-  rpc:
-    zookeeper-connect: 192.168.91.128:2181
-    server-port: 8087
