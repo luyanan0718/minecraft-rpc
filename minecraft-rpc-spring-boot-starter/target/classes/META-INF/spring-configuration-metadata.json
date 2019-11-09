@@ -1,0 +1,24 @@
+{
+  "groups": [
+    {
+      "name": "minecraft.rpc",
+      "type": "com.minecraft.rpc.RpcProperties",
+      "sourceType": "com.minecraft.rpc.RpcProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "minecraft.rpc.server-port",
+      "type": "java.lang.Integer",
+      "description": "<p>rpc 服务端的端口号<\/p> @author luyanan @since 2019\/11\/8",
+      "sourceType": "com.minecraft.rpc.RpcProperties"
+    },
+    {
+      "name": "minecraft.rpc.zookeeper-connect",
+      "type": "java.lang.String",
+      "description": "<p>zookeeper的连接信息<\/p> @author luyanan @since 2019\/11\/8",
+      "sourceType": "com.minecraft.rpc.RpcProperties"
+    }
+  ],
+  "hints": []
+}

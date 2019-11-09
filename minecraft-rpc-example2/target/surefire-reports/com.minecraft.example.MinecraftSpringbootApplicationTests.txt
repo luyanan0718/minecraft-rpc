@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.minecraft.example.MinecraftSpringbootApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 7.84 s <<< FAILURE! - in com.minecraft.example.MinecraftSpringbootApplicationTests
+contextLoads  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'curatorFramework' defined in com.minecraft.rpc.RpcServerConfig: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.curator.framework.CuratorFramework]: Factory method 'curatorFramework' threw exception; nested exception is java.lang.IllegalArgumentException: connectionString cannot be null or empty
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.curator.framework.CuratorFramework]: Factory method 'curatorFramework' threw exception; nested exception is java.lang.IllegalArgumentException: connectionString cannot be null or empty
+Caused by: java.lang.IllegalArgumentException: connectionString cannot be null or empty
+
